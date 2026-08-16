@@ -1,0 +1,6 @@
+<li>
+                        <div class="text-label font-caption-header ng-binding" ng-bind="'Label.Friends' | translate">Friends</div>
+                        <a class="text-name" href="https://www.roblox.com/users/{userid}/friends#!/friends">
+                            <span class="font-header-2 ng-binding" title="{count}" ng-bind="profileHeaderLayout.friendsCount | abbreviate">{count}</span>
+                        </a>
+                    </li>

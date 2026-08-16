@@ -1,0 +1,28 @@
+<div id="simplemodal-container" class="simplemodal-container" style="position: fixed; z-index: 1002; height: 222px; width: 425px; left: 364px; top: 373.5px;"><a class="modalCloseImg simplemodal-close" title="Close"></a><div tabindex="-1" class="simplemodal-wrap" style="height: 100%; outline: 0px; width: 100%; overflow: visible;"><div class="ConfirmationModal modalPopup unifiedModal smallModal noImage simplemodal-data" data-modal-handle="confirmation" style="" id="simplemodal-data">
+    <a class="genericmodal-close ImageButton closeBtnCircle_20h" style="display: none;"></a>
+    <div class="Title">Upgrade your iOS</div>
+    <div class="GenericModalBody">
+        <div class="TopBody">
+            <div class="ImageContainer roblox-item-image" data-image-size="small" data-no-overlays="" data-no-click="">
+                <img class="GenericModalImage" alt="generic image">
+            </div>
+            <div class="Message">Your iOS0 is not supported anymore and will not work in the near future. We do recommend that you have at least iOS7.</div>
+        </div>
+        <div class="ConfirmationModalButtonContainer GenericModalButtonContainer">
+            <a href="" id="roblox-confirm-btn" class="btn-large btn-none">Continue</a>
+            <a href="" id="roblox-decline-btn" class="btn-large btn-neutral">Remind me later</a>
+        </div>
+        <div class="ConfirmationModalFooter" style="display: none;"></div>  
+    </div>  
+    <script type="text/javascript">
+        Roblox = Roblox || {};
+        Roblox.Resources = Roblox.Resources || {};
+        
+        Roblox.Resources.GenericConfirmation = {
+            yes: "Yes",
+            No: "No",
+            Confirm: "Confirm",
+            Cancel: "Cancel"
+        };
+    </script>
+</div></div></div>

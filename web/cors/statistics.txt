@@ -1,0 +1,1 @@
+<div class="section profile-statistics"><div class="container-header"><h3>Statistics</h3></div><div class="section-content"><ul class="profile-stats-container"><li class="profile-stat"><p class="text-label">Join Date</p><p class="text-lead">1/1/1970</p></li></ul></div></div>

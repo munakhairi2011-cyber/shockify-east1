@@ -1,0 +1,3 @@
+<li class="btn-messages ng-hide" id="profile-chat-btn" ng-show="profileHeaderLayout.showChatBtn">
+							<button class="btn-primary-md ng-binding" ng-click="chat()" ng-bind="'Action.Chat' | translate">Chat</button>
+						</li>

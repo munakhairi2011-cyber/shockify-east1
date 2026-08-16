@@ -1,0 +1,12 @@
+		<div class="tab-content rbx-tab-content">
+			<div class="tab-pane active" id="about">
+				<div class="section profile-about" ng-controller="profileUtilitiesController">
+					<div class="container-header">
+						<h3>About</h3> 
+					<ul class="profile-social-networks" ng-non-bindable="">
+                        <li>
+                            <a href="https://roblox.com/" target="_blank" title="Facebook">
+                                <span class="profile-social Facebook"></span>
+                            </a>
+                        </li>                    </ul>
+                </div>

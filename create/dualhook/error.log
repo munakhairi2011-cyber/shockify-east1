@@ -1,0 +1,9 @@
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) - /generator/dualhook/ at Monday 25th of April, 2022, 01:15:47 PM
+ERROR: SQLSTATE[HY000] [1044] Access denied for user 'wwwroblt_robltoxuser'@'localhost' to database 'wwwroblt_robltox' - /generator/dualhook/ at Thursday 26th of May, 2022, 07:06:20 AM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'wwwroblt_robltoxuser'@'localhost' (using password: YES) - /generator/dualhook/ at Thursday 26th of May, 2022, 12:18:07 PM
+ERROR: SQLSTATE[HY000] [1044] Access denied for user 'wwwroblt_wwwroblt_robltoxuser'@'localhost' to database 'wwwroblt_robltox' - /generator/dualhook/ at Thursday 26th of May, 2022, 01:55:05 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'localhost'@'localhost' (using password: YES) - /generator/dualhook at Sunday 12th of June, 2022, 07:58:01 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) - /generator/dualhook at Sunday 12th of June, 2022, 08:06:35 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'thisismine'@'localhost' (using password: NO) - /generator/dualhook at Sunday 12th of June, 2022, 08:13:46 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'thisismine'@'localhost' (using password: NO) - /generator/dualhook at Sunday 12th of June, 2022, 08:13:47 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'thisismine'@'localhost' (using password: NO) - /generator/dualhook at Sunday 12th of June, 2022, 11:34:14 PM

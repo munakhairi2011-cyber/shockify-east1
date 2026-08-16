@@ -1,0 +1,1 @@
+<script type="text/javascript" onerror="Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="PeopleList" data-bundle-source="Main" src="{domain}/web/javascript/PeopleList.js" id="scriptPeopleList" userid="{userid}"></script>

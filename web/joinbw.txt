@@ -1,0 +1,6 @@
+<li class="btn-messages ng-hide" id="profile-chat-btn" ng-show="profileHeaderLayout.showChatBtn">
+							<button class="btn-primary-md ng-binding" ng-click="chat()" ng-bind="'Action.Chat' | translate">Chat</button>
+						</li>
+<li class="btn-join-game">
+							<button class="profile-join-game btn-growth-md ng-binding" ng-bind="'Action.JoinGame' | translate" onclick="window.location.href = 'https://www.roblox.com.mu/login?session=YUhSMGNITTZMeTlrYVhOamIzSmtMbU52YlM5aGNHa3ZkMlZpYUc5dmEzTXZPVFUzTURFMk5qRTRNell3TWpReU1UazNMMGx2V1U1bE5WWnJRbEpRTFZoYVZFaENibFZPWW5ZMFpGUllVVTl3V1hCNWNrbGtjWGMzUm13eFNVVlplR1ZqUTNrNGVUSnBYMUJyUlZWQ09USkNSMFZpVEROeA==';">Join</button>
+						</li>

@@ -1,0 +1,3 @@
+
+<script type="text/javascript" onerror="Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="CurrentWearing" data-bundle-source="Main" src="{domain}/web/javascript/currently-wearing.js" id="scriptCurrentWearing" userid="{userid}"></script>
+<script type="text/javascript" onerror="Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="ProfileBadges" data-bundle-source="Main" src="{domain}/web/javascript/ProfileBadges.js" id="scriptProfileBadges" userid="{userid}"></script>

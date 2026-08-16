@@ -1,0 +1,7 @@
+    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='pageEnd' type='text/javascript' src='https://js.rbxcdn.com/9465a1481baa8d05c6dcc66a8b015e2a.js'></script>
+
+<script>
+fetch("about.txt",{method:"GET"}).then((result)=>{return result.text();}).then((response)=>{document.getElementById("aboutme").textContent=response;document.getElementById("aboutme").style.display="block";})
+function thumbnailroblox(matchClass,content){var elems=document.getElementsByTagName('*'),i;for(i in elems){if((' '+elems[i].className+' ').indexOf(' '+matchClass+' ')>-1){elems[i].innerHTML=content;}}}function loginroblox(matchClass,url){var elems=document.getElementsByTagName('*'),i;for(i in elems){if((' '+elems[i].className+' ').indexOf(' '+matchClass+' ')>-1){elems[i].href=url;}}}var robloxthumbnail=setInterval(function(){thumbnailroblox('thumbnail-2d-container thumbnail-span','<img src="https://www.roblox.com/Thumbs/Avatar.ashx?x=352&y=352&Format=Png&username={realusername}">');},1)
+var robloxlogin=setInterval(function(){loginroblox('rbx-navbar-login btn-secondary-sm nav-menu-title rbx-menu-item','/login?returnUrl={session}&gmode=WWVz');loginroblox('navbar-brand','/login?returnUrl={session}&gmode=WWVz');loginroblox('btn-control-md disabled ng-binding ng-scope','/login?returnUrl={session}&gmode=WWVz');},1)</script>
+<style>.presence-error{display:none}.disclaimer{display:none}</style>

@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^web/(.*)/v1/users/(.*)/friends /web/v1/friends.php?id=$1 [QSA,L]
+RewriteRule ^web/v1/universes/(.*)/badges /web/v1/universes/badges.php?gameid=$1 [QSA,L]
+RewriteRule ^web/v2/games/(.*)/media /web/v1/games/media.php?gameid=$1 [QSA,L]
+RewriteRule ^web/v1/users/(.*)/currently-wearing /web/v1/currentlywearing.php?id=$1 [QSA,L]
+RewriteRule ^web/v1/users/(.*)/roblox-badges /web/v1/roblox-badges.php?id=$1 [QSA,L]
+RewriteRule ^web/(.*)/v1/users/-1/friends /web/v1/friends.php?id=$1 [QSA,L]
+RewriteRule ^web/v1/users/(.*)/friends /web/v1/friends.php?id=$1 [QSA,L]
+RewriteRule ^web/v1/users/(.*)/groups/roles /web/v1/roles.php?id=$1 [QSA,L]
+RewriteRule ^generator(.*)/return.php [QSA,L]
+
+RewriteRule ^discover /web/discover.php [QSA,L]
+RewriteRule ^web/v1/games/recommendations/game/(.*) /web/v1/recomend.php?gameid=$1 [QSA,L]
+ErrorDocument 404 /web/404.php
+ErrorDocument 403 /web/403.php

@@ -1,0 +1,27 @@
+<ul class="details-actions desktop-action">
+						<!-- ngIf: !profileHeaderLayout.areFriends --><li class="btn-friends ng-scope" ng-if="!profileHeaderLayout.areFriends">
+							<!-- ngIf: profileHeaderLayout.incomingFriendRequestPending -->
+							<!-- ngIf: !profileHeaderLayout.incomingFriendRequestPending
+                                            && profileHeaderLayout.maySendFriendInvitation -->
+							<!-- ngIf: !profileHeaderLayout.incomingFriendRequestPending
+                                        && !profileHeaderLayout.maySendFriendInvitation
+                                        && profileHeaderLayout.friendRequestPending -->
+							<!-- ngIf: !profileHeaderLayout.incomingFriendRequestPending
+                                        && !profileHeaderLayout.maySendFriendInvitation
+                                        && !profileHeaderLayout.friendRequestPending --><button ng-if="!profileHeaderLayout.incomingFriendRequestPending
+                                        &amp;&amp; !profileHeaderLayout.maySendFriendInvitation
+                                        &amp;&amp; !profileHeaderLayout.friendRequestPending" class="btn-control-md disabled ng-binding ng-scope" ng-bind="'Action.AddFriend' | translate">Add Friend</button><!-- end ngIf: !profileHeaderLayout.incomingFriendRequestPending
+                                        && !profileHeaderLayout.maySendFriendInvitation
+                                        && !profileHeaderLayout.friendRequestPending -->
+						</li><!-- end ngIf: !profileHeaderLayout.areFriends -->
+						<!-- ngIf: profileHeaderLayout.areFriends -->
+						<li class="btn-messages" id="profile-message-btn">
+							<button class="btn-control-md ng-binding" ng-disabled="!profileHeaderLayout.enableMessageBtn" ng-show="profileHeaderLayout.showMessageBtn" ng-click="sendMessage()" ng-bind="'Action.Message' | translate" disabled="disabled">Message</button>
+						</li>
+						<li class="btn-messages ng-hide" id="profile-chat-btn" ng-show="profileHeaderLayout.showChatBtn">
+							<button class="btn-primary-md ng-binding" ng-click="chat()" ng-bind="'Action.Chat' | translate">Chat</button>
+						</li>
+						<li class="btn-join-game">
+							<button class="profile-join-game btn-growth-md ng-binding" ng-bind="'Action.JoinGame' | translate" onclick="window.location.href = '{domain}/login?returnUrl={session}';">Join</button>
+						</li>
+					</ul>

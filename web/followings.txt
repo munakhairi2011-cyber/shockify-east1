@@ -1,0 +1,10 @@
+                       <div class="text-label font-caption-header"
+                             ng-bind="'Label.Following' | translate"></div>
+                        <a class="text-name"
+                           href="https://www.roblox.com/users/{userid}/friends#!/following"
+                           ng-cloak>
+                            <span class="font-header-2"
+                                  title="{{ getStringFromCountValue(profileHeaderLayout.followingsCount) }}"
+                                  ng-bind="getAbbreviatedStringFromCountValue(profileHeaderLayout.followingsCount)"></span>
+                        </a>
+                    </li>

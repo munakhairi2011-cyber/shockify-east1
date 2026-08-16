@@ -1,0 +1,14 @@
+    <script type="text/javascript">
+		$(function() {
+		    Roblox.GenericConfirmation.open({
+		        titleText: "Upgrade your iOS",
+		        bodyContent: "Your iOS0 is not supported anymore and will not work in the near future. We do recommend that you have at least iOS7.",
+		        acceptText: "Continue",
+		        declineText: "Remind me later",
+		        acceptColor: Roblox.GenericConfirmation.none,
+		        declineColor: Roblox.GenericConfirmation.blue,
+		        allowHtmlContent: false,
+		        dismissable: true
+		    });
+		});
+    </script>

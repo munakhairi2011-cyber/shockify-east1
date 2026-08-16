@@ -1,0 +1,6 @@
+<li>
+                        <div class="text-label font-caption-header ng-binding" ng-bind="'Label.Followers' | translate">Followers</div>
+                        <a class="text-name" href="https://www.roblox.com/users/{userid}/friends#!/followers">
+                            <span class="font-header-2 ng-binding" title="{count}" ng-bind="getAbbreviatedStringFromCountValue(profileHeaderLayout.followersCount)">{count}</span>
+                        </a>
+                    </li>
